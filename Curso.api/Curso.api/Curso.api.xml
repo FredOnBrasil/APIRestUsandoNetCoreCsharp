@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Curso.api</name>
+    </assembly>
+    <members>
+        <member name="T:Curso.api.Controllers.UsuarioController">
+            <summary>
+            Configuração da Api usando a rota com versionamento
+            </summary>
+        </member>
+        <member name="M:Curso.api.Controllers.UsuarioController.Logar(Curso.api.Models.Usuarios.LoginViewModelInput)">
+            <summary>
+            Este serviço permite autenticar um usuario cadastradoe ativo.
+            </summary>
+            <param name="loginViewModelInput"></param>
+            <returns>Retorna Status OK, dados do usuario e o Tokenem caso de </returns>
+        </member>
+        <member name="T:Curso.api.Models.Filters.ValidacaoModelStateCustomizado">
+            <summary>
+            filtro usado para evitar code smell na classe usuáriocontroller.cs
+            ajuda a evitar ctrl+c / ctrl+v de código
+            </summary>
+        </member>
+        <member name="P:Curso.api.Models.Usuarios.ValidaCampoViewModelOutput.Erros">
+            
+             Implementa uma Lista de erros
+        </member>
+    </members>
+</doc>
